@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+header {
+    height: 20%;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+#title {
+    height: 70%;
+}
+
+#container {
+    height: 80%;
+}
+
+#phoebe {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100%
+}
+
+#aboutme {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 100%
+}
