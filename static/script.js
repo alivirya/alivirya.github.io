@@ -14,7 +14,7 @@ function phoebeSlideshow() {
 function textSlideshow() {
     let textId = document.getElementById("description");
     let text = ["I'm 22 years old", "I've lived in six countries", "I go rock climbing",
-     "I'm Indonesian", "I have a dog named Phoebe"]
+     "I'm Indonesian", "I have a dog named Phoebe", "I love food"]
     textIndex++;
     if (textIndex >= text.length) {
         textIndex = 0;
@@ -22,5 +22,5 @@ function textSlideshow() {
     textId.innerHTML = text[textIndex];
 }
 
-setInterval(phoebeSlideshow, 3000);
-setInterval(textSlideshow, 3000);
+setInterval(phoebeSlideshow, 4000);
+setInterval(textSlideshow, 4000);
