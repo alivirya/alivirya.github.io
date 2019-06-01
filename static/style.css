@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nanum Gothic', 'Open Sans', sans-serif;
 
 }
 
@@ -16,12 +16,18 @@ body {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     margin: 10px;
+    font-family: 'Nanum Gothic'
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px;
+    font-family: 'Open Sans'
 }
 
 #title {
-    padding: 45px;
     height: 30%;
 }
 
