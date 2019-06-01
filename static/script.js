@@ -22,5 +22,33 @@ function textSlideshow() {
     textId.innerHTML = text[textIndex];
 }
 
+function openAbout() {
+    let about = document.getElementById("about-me");
+    if (about.style.display == "none") {
+        about.style.display = "block";
+    } else {
+        about.style.display = "none";
+    }
+}
+
+function openExperience() {
+    let workExperience = document.getElementById("work-experience");
+    if (workExperience.style.display == "none") {
+        workExperience.style.display = "block";
+    } else {
+        workExperience.style.display = "none";
+    }
+}
+
+function openVolunteer() {
+    let volunteerExperience = document.getElementById("volunteer-experience");
+    if (volunteerExperience.style.display == "none") {
+        volunteerExperience.style.display = "block";
+    } else {
+        volunteerExperience.style.display = "none";
+    }
+}
+
+
 setInterval(phoebeSlideshow, 4000);
 setInterval(textSlideshow, 4000);
