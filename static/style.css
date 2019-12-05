@@ -1,5 +1,6 @@
 * {
     font-family: 'Nanum Gothic', 'Open Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 html, 
@@ -12,8 +13,11 @@ body {
 h1 {
     margin: 0;
     text-align: center;
-    display: block;
     font-size: 5em;
+}
+h1:hover {
+    color: rgb(80, 23, 9);
+    text-decoration: underline;
 }
 
 h2 {
