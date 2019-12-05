@@ -1,14 +1,26 @@
+* {
+    font-family: 'Nanum Gothic', 'Open Sans', sans-serif;
+}
+
 html, 
 body {
     height: 100%;
     margin: 0;
+    background-color: #FFF0F5;
 }
 
 h1 {
     margin: 0;
     text-align: center;
     display: block;
+    font-size: 5em;
 }
+
+h2 {
+    font-size: 2em;
+    margin: 5px;
+}
+
 
 img {
     padding: 0;
@@ -23,7 +35,7 @@ img {
     width: 50%;
 }
 
-#phoebe {
+#photo {
     max-height: 100%;
     max-width: 100%;
     overflow: hidden;
@@ -32,6 +44,11 @@ img {
 #about {
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 #main {
