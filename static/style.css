@@ -35,6 +35,13 @@ img {
     width: 50%;
 }
 
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="container"] {
+        width: 100% !important;
+    }
+
 #photo {
     max-height: 100%;
     max-width: 100%;
