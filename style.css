@@ -12,4 +12,96 @@ body,
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.aBig {
+  width: 105px;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 100px solid black;
+  border-radius: 20%;
+}
+
+.aInsideTop {
+  position: relative;
+  top: 17px;
+  right: 2px;
+  width: 30px;
+  height: 0;
+  border-left: 12px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 28px solid white;
+}
+
+.aInsideBottom {
+  position: relative;
+  top: 32px;
+  right: 21px;
+  width: 66px;
+  height: 0;
+  border-left: 14px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 40px solid white;
+}
+.uBig {
+  width: 80px;
+  height: 100px;
+  background-color: black;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+
+.uSmall {
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  position: relative;
+  left: 17px;
+  width: 46px;
+  height: 82px;
+  background-color: white;
+}
+
+.dBig {
+  background-color: black;
+  border-radius: 10% 25% 25% 10%;
+
+  width: 80px;
+  height: 100px;
+}
+
+.dSmall {
+  border-radius: 10% 20% 20% 10%;
+  background-color: white;
+  position: relative;
+  left: 18px;
+  top: 18px;
+  width: 44px;
+  height: 64px;
+}
+
+.oBig {
+  border-radius: 25%;
+  background-color: black;
+  width: 80px;
+  height: 100px;
+}
+
+.oSmall {
+  position: relative;
+  top: 18px;
+  left: 18px;
+  border-radius: 25%;
+  background-color: white;
+  height: 64px;
+  width: 44px;
 }
