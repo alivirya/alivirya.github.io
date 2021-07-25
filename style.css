@@ -6,6 +6,7 @@ html,
 body,
 .main {
   height: 100%;
+  font-family: "Source Serif Pro";
 }
 
 .main {
@@ -15,12 +16,19 @@ body,
   flex-direction: column;
 }
 
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 20px 0px;
+}
+
 .container {
   height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 30%;
+  width: 33%;
 }
 
 .aBig {
@@ -104,4 +112,8 @@ body,
   background-color: white;
   height: 64px;
   width: 44px;
+}
+
+h1 {
+  font-family: "Lato";
 }
