@@ -1,25 +1,29 @@
 * {
   box-sizing: border-box;
-}
-
-html,
-body,
-.main {
-  height: 100%;
   font-family: "Source Serif Pro";
 }
 
-.main {
+html,
+body {
+  height: 100%;
+}
+
+.page {
   display: flex;
+  flex-direction: column;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
 .nav {
+  top: 0;
+  position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
   padding: 20px 20px 0px;
 }
 
